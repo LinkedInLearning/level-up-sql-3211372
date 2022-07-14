@@ -28,7 +28,7 @@ INSERT INTO OrdersDishes (OrderID, DishID) VALUES
 SELECT * 
 FROM Dishes 
 JOIN OrdersDishes ON Dishes.DishID = OrdersDishes.DishID 
-WHERE OrdersDishes.OrderID = 1000;
+WHERE OrdersDishes.OrderID = 1001;
 
 SELECT SUM(Dishes.Price) 
 FROM Dishes 

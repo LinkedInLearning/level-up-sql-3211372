@@ -6,7 +6,7 @@
 -- Report 2: Show the five books that have been
 -- checked out the most.
 
-SELECT Published, GROUP_CONCAT(DISTINCT(Title)), COUNT(DISTINCT(Title)) AS PubCount 
+SELECT Published, COUNT(DISTINCT(Title)) AS PubCount 
 FROM Books 
 GROUP BY Published
 ORDER BY PubCount DESC;

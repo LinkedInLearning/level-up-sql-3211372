@@ -13,8 +13,7 @@ VALUES (
     FROM Patrons 
     WHERE Email = 'jvaan@wisdompets.com'),
   '2022-08-25',
-  '2022-09-08'
-  );
+  '2022-09-08');
 
 INSERT INTO Loans (BookID, PatronID, LoanDate, DueDate)
 VALUES (
