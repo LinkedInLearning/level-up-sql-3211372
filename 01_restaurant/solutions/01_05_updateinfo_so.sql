@@ -5,15 +5,15 @@
 
 SELECT CustomerID, FirstName, LastName, Address 
 FROM Customers 
-WHERE FirstName='Taylor' 
-AND LastName='Jenkins';
+WHERE FirstName = 'Taylor' 
+AND LastName = 'Jenkins';
 
 UPDATE Customers 
-SET Address='74 Pine St.', 
-    City='New York', 
-    State='NY' 
-WHERE CustomerID='26';
+SET Address = '74 Pine St.', 
+    City = 'New York', 
+    State = 'NY' 
+WHERE CustomerID = 26;
 
 SELECT * 
 FROM Customers 
-WHERE CustomerID = '26';
+WHERE CustomerID = 26;
