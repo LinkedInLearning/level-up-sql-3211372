@@ -13,11 +13,11 @@ FROM Customers
 WHERE Address = '6939 Elka Place' AND LastName = 'Hundey';
 
 INSERT INTO Orders (CustomerID, OrderDate) 
-VALUES (70, '2022-09-20 14:00:00')
+VALUES (70, '2022-09-20 14:00:00');
 
 SELECT * 
 FROM Orders 
-WHERE CustomerID = '70' 
+WHERE CustomerID = 70
 ORDER BY OrderDate DESC;
 
 INSERT INTO OrdersDishes (OrderID, DishID) VALUES
