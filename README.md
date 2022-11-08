@@ -12,5 +12,5 @@ Scott Simpson
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/scott-simpson).
 
 [lil-course-url]: https://www.linkedin.com/learning/level-up-sql
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQGfjqCHoflUVw/learning-public-crop_675_1200/0/1666216409712?e=1667952000&v=beta&t=yK0laHBMcpAkJmfqrnpYO7POEM318DUWXBlO5-DFDLM
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3211372/3211372-1667864287566-16x9.jpg
 [gcs-video-url]: https://www.linkedin.com/learning/level-up-sql/using-github-codespaces-with-this-course
