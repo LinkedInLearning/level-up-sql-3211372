@@ -1,5 +1,5 @@
 # Level Up: SQL 
-This is the repository for the LinkedIn Learning course Level Up: SQL . The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Level Up: SQL. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![Level Up: SQL ][lil-thumbnail-url]
 
