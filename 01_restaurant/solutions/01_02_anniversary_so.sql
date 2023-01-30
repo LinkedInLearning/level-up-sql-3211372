@@ -10,3 +10,5 @@ CREATE TABLE AnniversaryAttendees (
   CustomerID INTEGER,
   PartySize INTEGER
 );
+
+DROP TABLE AnniversaryAttendees;
