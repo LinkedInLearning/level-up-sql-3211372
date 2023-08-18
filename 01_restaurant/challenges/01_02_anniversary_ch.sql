@@ -5,3 +5,9 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+drop TABLE Party_size
+
+Create table Party_size(
+  CustomerId int,
+  party_size int
+)
