@@ -23,5 +23,7 @@ INNER JOIN
 ON
   l.PatronID = p.PatronID
 WHERE
-  DueDate < '2022-07-13'  -- I changed the operator to '<' from '=' to see ALL overdue books. 
-  AND ReturnedDate IS NULL;
+  DueDate <= '2022-07-13'  -- I changed the operator to '<=' from '=' to see ALL overdue books. 
+  AND ReturnedDate IS NULL
+ORDER BY
+  l.LoanDate ASC;
